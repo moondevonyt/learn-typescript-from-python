@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // source files location 
+    "rootDir": "./src", // compiled js output 
+    "baseUrl": ".", // base directory for paths 
+    "paths": { // path aliases for imports 
+      "@utils/*": ["src/utils/*"],
+      "@types/*": ["src/types/*"]
+    },
+
+    // language features
+    "target": "ES2020",  // modern javasript features
+    "module": "CommonJS", // module system to use 
+    "lib": [ // javascript libraries to include
+      "ES2020",
+      "DOM"
+    ], 
+
+    // 
+    "strict": true, // enable all strict type checking
+    "noImplicitAny": true, // error on implied any type
+    "strictNullChecks": true, // strict null / definid checking
+
+    // module resoltion 
+    "moduleResolution": "node", //how to resolve modules
+    "esModuleInterop": true,  // better import/export compatability
+    "resolveJsonModule": true, // allow importing json files 
+
+    // source maps & debugging 
+    "sourceMap": true, // generate source maps 
+    "declaration": true, // generate .d.ts files 
+
+    // advanced features
+    "experimentalDecorators": true, // enable decorators
+    "emitDecoratorMetadata": true // emit decorator metadata
+  },
+  "include": [
+    "src/**/*" // files to include
+  ],
+  "exclude": [
+    "node_modules", // files to exclude
+    "dist"
+  ]
+}

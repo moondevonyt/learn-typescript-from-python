@@ -1,0 +1,21 @@
+{
+  "name": "learn-typescript-from-python-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@types/bs58": "^4.0.4",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "bs58": "^6.0.0"
+  }
+}
